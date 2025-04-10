@@ -36,3 +36,28 @@ La solución se basa en una estructura simple y eficiente:
 
     Interfaz de Línea de Comandos (CLI): Con argparse, la aplicación recibe como argumento la ruta del archivo CSV, facilitando su ejecución desde la terminal.
 Las decisiones de diseño se han centrado en la simplicidad, la legibilidad del código y la eficiencia en el procesamiento de archivos.
+
+Estructura del Proyecto
+
+La estructura básica del proyecto es la siguiente:
+
+```bash
+nombre_del_repositorio/
+│
+├── transactions.py      # Script principal que procesa las transacciones
+├── transacciones.csv     # Archivo CSV de ejemplo con las transacciones
+└── README.md 
+```
+
+transactions.py: Contiene el código que lee el archivo CSV, procesa las transacciones y genera el reporte en la terminal.
+
+transacciones.csv: Archivo de ejemplo que debe seguir la estructura:
+
+```csv
+id,tipo,monto
+1,Crédito,100.00
+2,Débito,50.00
+3,Crédito,200.00
+4,Débito,75.00
+5,Crédito,150.00
+```
